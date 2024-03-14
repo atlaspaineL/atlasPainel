@@ -12,7 +12,7 @@ wget -O delete.py "https://raw.githubusercontent.com/atlaspaineL/atlasPainel/mai
 wget -O atlasdata.sh "https://raw.githubusercontent.com/atlaspaineL/atlasPainel/main/atlasdata.sh"
 wget -O sincronizar.py "https://raw.githubusercontent.com/atlaspaineL/atlasPainel/main/sincronizar.py"
 chmod 777 atlascreate.sh add.sh remsinc.sh addsinc.sh rem.sh atlasteste.sh addteste.sh atlasremove.sh delete.py atlasdata.sh sincronizar.py
-sudo apt install dos2unix
+apt install dos2unix
 dos2unix rem.sh
 wget "https://raw.githubusercontent.com/atlaspaineL/atlasPainel/main/verificador.py" -O verificador.py 
 python3 verificador.py
